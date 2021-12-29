@@ -17,5 +17,5 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', '${_IMAGE_NAME}', '.']
 substitutions:
-    _IMAGE_NAME: 'gcr.io/navie-tes-323317/test-image'
+    _IMAGE_NAME: 'gcr.io/navie-test-323317/test-image'
 
