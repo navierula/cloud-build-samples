@@ -18,6 +18,4 @@ steps:
   args: ['build', '-t', '${_IMAGE_NAME}', '.']
 substitutions:
     _IMAGE_NAME: 'gcr.io/${PROJECT_ID}/test-image'
-options:
-    dynamic_substitutions: true
 
