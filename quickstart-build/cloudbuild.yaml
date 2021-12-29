@@ -15,7 +15,7 @@
 
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', ${_IMAGE_NAME}, '.']
+  args: ['build', '-t', '${_IMAGE_NAME}', '.']
 substitutions:
     _IMAGE_NAME: 'gcr.io/${PROJECT_ID}/test-image'
 options:
