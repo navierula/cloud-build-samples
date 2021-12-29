@@ -17,5 +17,5 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', '${_IMAGE_NAME}', '.']
 substitutions:
-    _IMAGE_NAME: 'gcr.io/${PROJECT_ID}/test-image'
+    _IMAGE_NAME: 'us-central1-docker.pkg.dev/navie-test/quickstart-docker-repo/quickstart-image:tag1'
 
